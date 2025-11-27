@@ -18,10 +18,10 @@ function SupportPage()  {
       question: 'How does the voice assistant work?',
       answer: 'Our voice assistant uses advanced AI from Vapi to understand and respond to you in a natural, conversational way. Simply start a call and speak as you normally would.'
     },
-    {
-      question: 'What languages are supported?',
-      answer: 'We support over 10 languages, including English, Spanish, French, German, Chinese, and more.'
-    },
+    // {
+    //   question: 'What languages are supported?',
+    //   answer: 'We support over 10 languages, including English, Spanish, French, German, Chinese, and more.'
+    // },
     {
       question: 'I\'m having a technical issue, what should I do?',
       answer: 'If you encounter any technical problems, please try refreshing the page.'
