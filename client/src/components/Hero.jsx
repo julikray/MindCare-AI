@@ -35,17 +35,6 @@ function Hero({ onModeSelect }) {
             Connect with our AI mental health assistant through voice or chat. Create a free account to track your journey or start a quick session now.
           </p>
 
-          {/* <div className="flex justify-center mb-10">
-            <Link to="/login">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 rounded-2xl font-semibold text-white shadow-lg hover:shadow-violet-500/50 transition-all duration-300"
-              >
-                Get Started for Free
-              </motion.button>
-            </Link>
-          </div> */}
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             {features.map((feature, index) => {

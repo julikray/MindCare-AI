@@ -2,25 +2,14 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Lock, LogIn, Brain } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-// import { useAuth } from '../context/AuthContext';
 import { supabase } from '../supabaseClient';
 import { toast } from 'react-toastify';
 
 function EmailLoginPage() {
-  // const { login } = useAuth();
   const navigate = useNavigate();
 
  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Simulate a successful login with dummy data
-  //   login({ email: e.target.email.value });
-
-
-  //   navigate('/');
-  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -79,12 +68,7 @@ function EmailLoginPage() {
             <h2 className="text-2xl font-bold text-slate-100">Welcome Back</h2>
             <p className="text-slate-400 mt-2">Sign in to your account.</p>
           </div>
-{/* 
-          <div className="p-4 mb-6 bg-blue-900/20 border border-blue-800/50 rounded-xl text-center">
-            <p className="text-sm text-blue-200">
-              <strong>Demo Mode:</strong> Click "Login" to simulate a login and access the features.
-            </p>
-          </div> */}
+
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="relative">

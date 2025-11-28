@@ -18,10 +18,6 @@ function SupportPage()  {
       question: 'How does the voice assistant work?',
       answer: 'Our voice assistant uses advanced AI from Vapi to understand and respond to you in a natural, conversational way. Simply start a call and speak as you normally would.'
     },
-    // {
-    //   question: 'What languages are supported?',
-    //   answer: 'We support over 10 languages, including English, Spanish, French, German, Chinese, and more.'
-    // },
     {
       question: 'I\'m having a technical issue, what should I do?',
       answer: 'If you encounter any technical problems, please try refreshing the page.'
@@ -73,24 +69,6 @@ function SupportPage()  {
               ))}
             </Accordion>
           </div>
-
-          {/* <div>
-            <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-              <Mail className="w-7 h-7 text-violet-400" />
-              Contact Us
-            </h2>
-            <div className="p-6 bg-slate-900/50 border border-slate-800/50 rounded-2xl">
-              <p className="text-slate-300">
-                For technical support, feedback, or other inquiries, please feel free to reach out to our team.
-              </p>
-              <a 
-                href="mailto:support@mindcare.ai" 
-                className="inline-block mt-4 px-6 py-3 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 rounded-xl font-semibold shadow-lg hover:shadow-violet-500/50 transition-all duration-300"
-              >
-                Email Support
-              </a>
-            </div>
-          </div> */}
 
         </div>
       </div>
